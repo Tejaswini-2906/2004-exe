@@ -1,0 +1,28 @@
+export type Song = { title:string; film:string; year:number; videoId?:string; status:"verified"|"unverified" };
+export const songs: Song[] = [
+{title:"O Priya Priya",film:"Geethanjali",year:1989,videoId:"tqLLe821DvU",status:"verified"},
+{title:"Aamani Paadave",film:"Geethanjali",year:1989,videoId:"vyH7ow2C4Zw",status:"verified"},
+{title:"Naa Cheli Rojave",film:"Roja",year:1992,videoId:"kC_t5jOvGos",status:"verified"},
+{title:"Kannanule",film:"Bombay",year:1995,status:"unverified"},
+{title:"Ee Velalo Neevu",film:"Gulabi",year:1995,videoId:"RJyrSI2LsI0",status:"verified"},
+{title:"Andamaina Premarani",film:"Premikudu",year:1994,videoId:"-YLjQzfNI4w",status:"verified"},
+{title:"Mukkala Mukkabula",film:"Premikudu",year:1994,videoId:"_SZPGnMgaj4",status:"verified"},
+{title:"Priyatama O Priyatama",film:"Prema",year:1989,videoId:"wK6lYmEJ1Co",status:"verified"},
+{title:"Priyatama",film:"Prema",year:1989,status:"unverified"},
+{title:"Ninnukori Varnam",film:"Gharshana",year:1988,videoId:"KEmsJBi11cE",status:"verified"},
+{title:"Neeve Amaraswarame",film:"Gharshana",year:1988,videoId:"4yTGqcQlQjU",status:"verified"},
+{title:"Naa Cheli Rojave",film:"Roja",year:1992,videoId:"kC_t5jOvGos",status:"verified"},
+{title:"Manasuna Manasai",film:"Aaditya 369",year:1991,status:"unverified"},
+{title:"Ennenno Janmala Bandham",film:"Pooja",year:1975,status:"unverified"},
+{title:"Kanne Pillavani",film:"Anveshana",year:1985,status:"unverified"},
+{title:"Chukkalu Themmaney",film:"Akkada Ammayi Ikkada Abbayi",year:1996,status:"unverified"},
+{title:"Emaindho Emo",film:"Premikula Roju",year:1999,status:"unverified"},
+{title:"Yamuna Teeram",film:"Anand",year:2004,status:"unverified"},
+{title:"Nee Kosam",film:"Iddaru",year:1997,status:"unverified"},
+{title:"Oke Oka Lokam",film:"Suryavamsam",year:1998,status:"unverified"},
+{title:"Kothaga Kothaga",film:"7/G Brindavan Colony",year:2004,status:"unverified"},
+{title:"Kalusukovalani",film:"Kalusukovalani",year:2002,status:"unverified"},
+{title:"Oosupodu",film:"Oosupodu",year:2000,videoId:"e4N9al7vhVQ",status:"verified"},
+{title:"Yedhalo Nadhilaga",film:"Yeto Vellipoyindhi Manasu",year:2012,status:"unverified"},
+{title:"Nee Kosam",film:"Kotha Bangaru Lokam",year:2008,status:"unverified"}
+];
